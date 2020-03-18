@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,700|Quicksand:300,400,500&display=swap');
+
+/* ..............................Colours */
+
+.bg-color-hero {
+    background-color: #790202;
+}
+
+.bg-color-racing {
+    background-color: #A4A4A4;
+}
+
+.racing-container h2 {
+    color: rgb(238, 245, 245);
+}
+
+.bg-color-footer {
+    background-color: #0c0b0b71;
+}
+
+
+/* ..............................Special paddings / margins / text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.container-fluid h2 {
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    letter-spacing: 5px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+/* ..............................Navbar */
+
+.navbar-brand {
+    font-family: "Muli", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #595959;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.nav-item {
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+/* ..............................Hero Image */
+
+.header-container {
+    height: 65vh;
+    color: #fff;
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    background: url("../images/Cav_header.jpg") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    background-size: cover;
+}
+
+.hero-outer {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.1)
+    }
+}
+
+.header-narrative {
+    padding: 0 24px;
+}
+
+.header-items {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #A4A4A4;
+    text-align: center;
+    border: 0;
+    padding: 56px 0;
+}
+
+.header-items ul li {
+    list-style-type: none;
+}
+
+/* ..............................Racing */
+
+
+.racing-container h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #595959;
+    margin-bottom: 10px;
+}
+
+.jumbotron-left {
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.jumbotron-right {
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+/* ..............................Social */
+
+.social-container h4 {
+    text-align: center;
+}
+
+
+
+/* ..............................Contact */
+
+
+
+
+/* ..............................Footer */
+.social-links, .contact-colaboration {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 6px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transform: all 0.35s ease-in-out;
+    -moz-transform: all 0.35s ease-in-out;
+    -webkit-transform: all 0.35s ease-in-out;
+    -o-transform: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #a84456;
+}
+
+.footer-container {
+    padding: 5px;
+    color: #fff;
+    font-size: 10px;
+}
